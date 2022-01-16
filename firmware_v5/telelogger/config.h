@@ -78,6 +78,13 @@
 #define MAX_OBD_ERRORS 3
 
 /**************************************
+* Buzzer configurations
+**************************************/
+#ifndef ENABLE_BUZZER
+#define ENABLE_BUZZER 0
+#endif
+
+/**************************************
 * Networking configurations
 **************************************/
 #ifndef ENABLE_WIFI
